@@ -1,0 +1,9 @@
+name: ijtemaApp-awsdeploy
+runtime: nodejs
+description: ijtemaApp-backend deployment script to AWS
+template:
+  description: A minimal AWS JavaScript Pulumi program
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1

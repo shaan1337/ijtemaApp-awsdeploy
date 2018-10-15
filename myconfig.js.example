@@ -1,0 +1,20 @@
+//NOTE: newlines should be escaped in strings
+exports.firebaseConfig = 
+`
+var credentialConfig = {
+    projectId: "<PROJECT_ID>",
+    clientEmail: "foo@<PROJECT_ID>.iam.gserviceaccount.com",
+    privateKey: "-----BEGIN PRIVATE KEY-----\\n<KEY>\\n-----END PRIVATE KEY-----\\n"
+};
+
+var databaseUrl = "https://<DATABASE_NAME>.firebaseio.com";
+
+var config = {
+    credentialConfig: credentialConfig,
+    databaseUrl: databaseUrl
+}
+
+module.exports = config;
+`;
+
+exports.keyPair = 'my-key-pair';
