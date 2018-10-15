@@ -20,4 +20,4 @@ $ pulumi update
 ## All ijtemaApp projects
 [ijtemaApp](https://github.com/shaan1337/ijtemaApp) - ionic mobile app  
 [ijtemaApp-backend](https://github.com/shaan1337/ijtemaApp-backend) - backend to ijtemaApp  
-[ijtemaApp-awsdeploy](https://github.com/shaan1337/ijtemaApp-awsdeploy) - deployment script to deploy ijtemaApp-backend AWS  
+[ijtemaApp-awsdeploy](https://github.com/shaan1337/ijtemaApp-awsdeploy) - deployment script to deploy ijtemaApp-backend to AWS  
